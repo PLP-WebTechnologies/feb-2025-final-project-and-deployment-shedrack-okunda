@@ -1,5 +1,11 @@
 # Final Project and Deployment
 
+## Hosted
+
+```bash
+    https://tech-blog-three-puce.vercel.app/
+```
+
 ## Objectives
 
 Build a fully functional web application.
