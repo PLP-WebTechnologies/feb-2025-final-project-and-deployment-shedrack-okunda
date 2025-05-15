@@ -8,10 +8,9 @@
 /* Base Styles */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #333;
   background: #f9f9f9;
-  padding: 0 20px 40px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +20,8 @@ h1,
 h2,
 h3 {
   color: #222;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -31,7 +31,6 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: underline;
   outline: none;
 }
 
@@ -39,8 +38,8 @@ a:focus {
 header {
   background-color: #007acc;
   color: #fff;
-  padding: 20px 15px;
-  border-radius: 8px;
+  padding: 10px 10px;
+  border-radius: 5px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -77,11 +76,11 @@ nav ul li a:focus {
 /* Main Content */
 main {
   flex: 1;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   background: #fff;
   padding: 25px 30px;
-  border-radius: 8px;
+  border-radius: px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
 }
 
@@ -112,7 +111,7 @@ footer {
   padding: 15px;
   background-color: #007acc;
   color: white;
-  border-radius: 0 0 8px 8px;
+  border-radius: 5px;
   font-size: 0.9rem;
   margin-top: 40px;
 }
